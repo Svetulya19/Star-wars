@@ -13,6 +13,8 @@ body {
 
 header, footer{
     background-color: rgba(60, 69, 67, 0.6);
+    height: 100px;
+
 }
 
 header {
@@ -24,6 +26,29 @@ h1 {
     padding: 0.5em;
     font-size: 3em;
 }
+
+.left {
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+}
+
+main section > .right{
+    margin: 5px;
+    border: 5px solid yellow;
+    border-radius: 0 0 16px 16px;
+}
+.right {
+    float: right;
+    width: 50%;
+    margin-left: 20px;
+    }
+
+p {
+    font-family: "Poller One", cursive;
+    padding: 0.5em;
+    }
+
 
 nav {
     position: fixed;
@@ -44,8 +69,25 @@ nav ul li {
     font-size: 1em;
     padding: 0.3em 0.5em;
     border-radius: 5px;
+
 }
 
+footer {
+    border-radius: 0 0 16px 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+div {
+    display: inline-block;
+    border: 2px solid black;
+    background-color: rgba(204, 3, 35, 0.5);
+    cursor: pointer;
+    font-size: 1em;
+    padding: 0.3em 0.5em;
+    border-radius: 5px;
+}
 /*
 Доделайте оформление css так, чтобы максимально подходило под дизайн картинки с использованием
 технологии флоат
