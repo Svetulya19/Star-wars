@@ -27,22 +27,47 @@ h1 {
     font-size: 3em;
 }
 
-.left {
+main section.left {
     float: left;
-    width: 50%;
-    margin-right: 20px;
+    width: 25%;
+    margin-right: 10px;
+    box-sizing: border-box;
 }
 
-main section > .right{
-    margin: 5px;
-    border: 5px solid yellow;
+main section.left img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 0.5em;
+    font-size: 0.8em;
+}
+
+main > section.right{
+    float: right;
+    width: 48%;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: 1px solid yellow;
     border-radius: 0 0 16px 16px;
+    overflow: hidden;
 }
 .right {
     float: right;
     width: 50%;
     margin-left: 20px;
     }
+
+main > section.right > img {
+    float: left;
+    width: 33.333%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    box-sizing: border-box;
+}
 
 p {
     font-family: "Poller One", cursive;
