@@ -31,35 +31,28 @@ main section.left {
     float: left;
     width: 25%;
     margin-right: 10px;
-    box-sizing: border-box;
+    margin-top: 2px;
 }
 
 main section.left img {
     display: block;
     width: 100%;
-    height: auto;
+    box-shadow: 10px 10px 30px white;
 }
 
 h2 {
     text-align: center;
-    padding: 0.5em;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 main > section.right{
     float: right;
-    width: 48%;
+    width: 45%;
     margin-left: 10px;
-    box-sizing: border-box;
     border: 1px solid yellow;
     border-radius: 0 0 16px 16px;
     overflow: hidden;
 }
-.right {
-    float: right;
-    width: 50%;
-    margin-left: 20px;
-    }
 
 main > section.right > img {
     float: left;
@@ -67,11 +60,13 @@ main > section.right > img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
     box-sizing: border-box;
+    border: 2px solid black;
 }
 
 p {
-    font-family: "Poller One", cursive;
-    padding: 0.5em;
+    font-size: 1.45em;
+    text-align: justify;
+    line-height: 1.35;
     }
 
 
@@ -99,13 +94,14 @@ nav ul li {
 
 footer {
     border-radius: 0 0 16px 16px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    clear: both;
 }
 
-div {
+footer .button {
     display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
     border: 2px solid black;
     background-color: rgba(204, 3, 35, 0.5);
     cursor: pointer;
