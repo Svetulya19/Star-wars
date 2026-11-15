@@ -37,7 +37,7 @@ main section.left {
 main section.left img {
     display: block;
     width: 100%;
-    box-shadow: 10px 10px 30px white;
+    /*box-shadow: 10px 10px 30px white;*/
 }
 
 h2 {
@@ -54,15 +54,22 @@ main > section.right{
     overflow: hidden;
 }
 
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
 td > img {
-    float: left;
-    width: 33.333%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    box-sizing: border-box;
+    width: 100%;
+    display: block ;
     border: 2px solid black;
 }
 
+.right td {
+    padding: 0;
+
+}
 p {
     font-size: 1.45em;
     text-align: justify;
